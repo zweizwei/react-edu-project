@@ -6,7 +6,7 @@ const loop = (times = 0, callback = null) => {
     return;
 
     for (let i = 0; i < times; i++) {
-        console.log('yes');
+        callback();
     }
 };
 
